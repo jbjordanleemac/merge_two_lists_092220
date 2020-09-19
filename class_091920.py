@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+import random
+
 class day():
   happyday = 'Yes Happy Day Everyday, Still alive with God\'s mercy !!!'
 
@@ -62,3 +64,18 @@ print(goodday3)
 
 goodday4 = goodday.upper()
 print(goodday4)
+
+gooddayagain = "     Eveyday is a great day! Still alive! Awesome   "
+
+goodday5 = gooddayagain.strip()
+print(goodday5)
+
+print(len(goodday4))
+
+print(goodday4[-6:-2])
+
+print(9>10)
+
+print(bool("Hello"))
+
+print(random.randrange(1,10))
