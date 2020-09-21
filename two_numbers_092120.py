@@ -28,3 +28,14 @@ class twonumbers():
 t1 = twonumbers(firstnumber, secondnumber)
 print('After the number reverse: ')
 t1.reversenumbers()
+
+
+thislist = ['a', 'b', 'c', 'd']
+
+d = raw_input(' Which location of the node you wish to pop out: Enter the number ')
+thislist.pop(int(d))
+
+print('After pop up ' + d + ' element Now list becomes ') 
+
+for c in thislist:
+  print(c)
