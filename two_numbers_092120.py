@@ -39,3 +39,20 @@ print('After pop up ' + d + ' element Now list becomes ')
 
 for c in thislist:
   print(c)
+
+# how to remove the duplicated node from the list
+
+e = [0, 0, 1, 1, 1]
+
+g = len(e)
+h = 0
+
+while h < g:
+  if e[h] == e[h + 1]:
+    e.pop(h+1)
+  h += 1
+
+print(e)
+      
+
+
